@@ -2,14 +2,14 @@
 This project aims to build a machine learning regression model to predict life expectancy based on various health, economic, and social factors. The project is part of the course “SKLearn to Solve Regression Problems”.
 
 ## Table of Contents
-Introduction
-Dataset
-Installation
-Exploratory Data Analysis
-Data Preprocessing
-Model Training
-Evaluation
-Conclusion
+  -Introduction
+  -Dataset
+  -Installation
+  -Exploratory Data Analysis
+  -Data Preprocessing
+  -Model Training
+  -Evaluation
+  -Conclusion
 
 ## Introduction
 In this project, we use the Life_Expectancy_Data.csv dataset to predict life expectancy using various features such as adult mortality, alcohol consumption, GDP, and more. The model is built using the Scikit-Learn and XGBoost libraries.
