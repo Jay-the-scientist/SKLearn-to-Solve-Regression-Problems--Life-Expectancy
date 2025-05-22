@@ -42,7 +42,7 @@ pip install pandas numpy seaborn matplotlib scikit-learn xgboost
 
 ## Results
 
-## Visualozations
+## Visualizations
 
 ## Conclusion
 This project demonstrates how to build and evaluate a machine learning regression model to predict life expectancy. The model can be further improved by tuning hyperparameters, adding more features, or using different algorithms.
