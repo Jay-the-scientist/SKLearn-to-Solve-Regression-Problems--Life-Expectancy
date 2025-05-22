@@ -13,31 +13,36 @@ You can install the required libraries using pip:
 pip install pandas numpy seaborn matplotlib scikit-learn xgboost
 ```
 
-## Exploratory Data Analysis
-We start by loading the dataset and performing basic exploratory data analysis (EDA) to understand the data. This includes:
+## Methodology
+### We start by loading the dataset and performing basic exploratory data analysis (EDA) to understand the data. This includes:
 
-Displaying basic information and statistics about the dataset.
-Visualizing missing values using a heatmap.
-Plotting histograms for each feature.
-Creating a correlation matrix to understand relationships between features.
-## Data Preprocessing
-Data preprocessing steps include:
+- Displaying basic information and statistics about the dataset.
+- Visualizing missing values using a heatmap.
+- Plotting histograms for each feature.
+- Creating a correlation matrix to understand relationships between features.
 
-Handling missing values by filling them with the mean of the respective columns.
-Converting categorical variables into dummy/indicator variables using pd.get_dummies.
-Splitting the dataset into features (X) and target variable (y).
-## Model Training
-We use the XGBoost regressor to train our model. The steps include:
+### Data preprocessing steps include:
 
-Splitting the data into training and testing sets.
-Initializing the XGBoost regressor with specific parameters.
-Training the model on the training data.
-## Evaluation
-The model is evaluated using the test data. We calculate the following metrics:
+- Handling missing values by filling them with the mean of the respective columns.
+- Converting categorical variables into dummy/indicator variables using pd.get_dummies.
+- Splitting the dataset into features (X) and target variable (y).
+  
+### We use the XGBoost regressor to train our model. The steps include:
 
-R-squared (R²) score
-Mean Squared Error (MSE)
-Mean Absolute Error (MAE)
-Root Mean Squared Error (RMSE)
+- Splitting the data into training and testing sets.
+- Initializing the XGBoost regressor with specific parameters.
+- Training the model on the training data.
+
+### The model is evaluated using the test data. We calculate the following metrics:
+
+- R-squared (R²) score
+- Mean Squared Error (MSE)
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+
+## Results
+
+## Visualozations
+
 ## Conclusion
 This project demonstrates how to build and evaluate a machine learning regression model to predict life expectancy. The model can be further improved by tuning hyperparameters, adding more features, or using different algorithms.
